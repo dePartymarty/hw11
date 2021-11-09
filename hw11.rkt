@@ -51,12 +51,6 @@
         (pop-to-global (cdr env)))))
 
 
-(define lc-exp->type
-  (lambda (lc-exp)
-    (car lc-exp)))
-                              
-
-
 (define do-mathy-stuff-toaster
   (lambda (op num1 num2)
     (cond
